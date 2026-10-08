@@ -1,0 +1,2 @@
+import {StoreShell} from "./storefront-components";
+export default function NotFound(){return <StoreShell><div className="store-container store-empty store-not-found"><span className="store-section-label">404</span><h1>Esta página não está disponível.</h1><p>O curso pode ter sido arquivado ou o endereço pode ter mudado.</p><a className="store-button store-button-dark" href="/#cursos">Voltar para os cursos</a></div></StoreShell>}
